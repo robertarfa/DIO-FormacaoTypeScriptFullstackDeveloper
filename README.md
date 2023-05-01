@@ -11,6 +11,7 @@
 4. Instalar as dependências de desenvolvimento.
 
    4.1 npm i -D typescript
+
    4.2 npm i -D ts-node-dev
 
 5. Inicializar o typescript no projeto
@@ -24,5 +25,7 @@
 7. Para transpilar de forma automática
 
    7.1 Adicionar em scripts no package.json
+
    7.1.1 "dev": "ts-node-dev app.ts"
+
    7.2 npm run dev
